@@ -20,9 +20,9 @@ namespace Practica_new {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("WSR123")]
+    [global::System.Xml.Serialization.XmlRootAttribute("WSR123DataSet")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class WSR123 : global::System.Data.DataSet {
+    public partial class WSR123DataSet : global::System.Data.DataSet {
         
         private CharityDataTable tableCharity;
         
@@ -60,27 +60,27 @@ namespace Practica_new {
         
         private VolunteerDataTable tableVolunteer;
         
-        private global::System.Data.DataRelation relationFK__Runner__CountryC__5535A963;
+        private global::System.Data.DataRelation relationFK__Runner__CountryC__5812160E;
         
-        private global::System.Data.DataRelation relationFK__Runner__Email__534D60F1;
+        private global::System.Data.DataRelation relationFK__Runner__Email__59063A47;
         
-        private global::System.Data.DataRelation relationFK__Runner__Gender__5441852A;
+        private global::System.Data.DataRelation relationFK__Runner__Gender__59FA5E80;
         
         private global::System.Data.DataRelation relationFK_Staff_Position;
         
         private global::System.Data.DataRelation relationFK_Timesheet_Staff;
         
-        private global::System.Data.DataRelation relationFK__User__RoleId__52593CB8;
+        private global::System.Data.DataRelation relationFK__User__RoleId__5CD6CB2B;
         
-        private global::System.Data.DataRelation relationFK__Volunteer__Count__571DF1D5;
+        private global::System.Data.DataRelation relationFK__Volunteer__Count__5DCAEF64;
         
-        private global::System.Data.DataRelation relationFK__Volunteer__Gende__5629CD9C;
+        private global::System.Data.DataRelation relationFK__Volunteer__Gende__5EBF139D;
         
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public WSR123() {
+        public WSR123DataSet() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -91,7 +91,7 @@ namespace Practica_new {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        protected WSR123(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected WSR123DataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -387,7 +387,7 @@ namespace Practica_new {
             }
         }
 
-        public static object Properties { get; internal set; }
+        //public static object Properties { get; internal set; }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
@@ -400,7 +400,7 @@ namespace Practica_new {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            WSR123 cln = ((WSR123)(base.Clone()));
+            WSR123DataSet cln = ((WSR123DataSet)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -620,22 +620,22 @@ namespace Practica_new {
                     this.tableVolunteer.InitVars();
                 }
             }
-            this.relationFK__Runner__CountryC__5535A963 = this.Relations["FK__Runner__CountryC__5535A963"];
-            this.relationFK__Runner__Email__534D60F1 = this.Relations["FK__Runner__Email__534D60F1"];
-            this.relationFK__Runner__Gender__5441852A = this.Relations["FK__Runner__Gender__5441852A"];
+            this.relationFK__Runner__CountryC__5812160E = this.Relations["FK__Runner__CountryC__5812160E"];
+            this.relationFK__Runner__Email__59063A47 = this.Relations["FK__Runner__Email__59063A47"];
+            this.relationFK__Runner__Gender__59FA5E80 = this.Relations["FK__Runner__Gender__59FA5E80"];
             this.relationFK_Staff_Position = this.Relations["FK_Staff_Position"];
             this.relationFK_Timesheet_Staff = this.Relations["FK_Timesheet_Staff"];
-            this.relationFK__User__RoleId__52593CB8 = this.Relations["FK__User__RoleId__52593CB8"];
-            this.relationFK__Volunteer__Count__571DF1D5 = this.Relations["FK__Volunteer__Count__571DF1D5"];
-            this.relationFK__Volunteer__Gende__5629CD9C = this.Relations["FK__Volunteer__Gende__5629CD9C"];
+            this.relationFK__User__RoleId__5CD6CB2B = this.Relations["FK__User__RoleId__5CD6CB2B"];
+            this.relationFK__Volunteer__Count__5DCAEF64 = this.Relations["FK__Volunteer__Count__5DCAEF64"];
+            this.relationFK__Volunteer__Gende__5EBF139D = this.Relations["FK__Volunteer__Gende__5EBF139D"];
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "WSR123";
+            this.DataSetName = "WSR123DataSet";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/WSR123.xsd";
+            this.Namespace = "http://tempuri.org/WSR123DataSet.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
             this.tableCharity = new CharityDataTable();
@@ -674,18 +674,18 @@ namespace Practica_new {
             base.Tables.Add(this.tableUser);
             this.tableVolunteer = new VolunteerDataTable();
             base.Tables.Add(this.tableVolunteer);
-            this.relationFK__Runner__CountryC__5535A963 = new global::System.Data.DataRelation("FK__Runner__CountryC__5535A963", new global::System.Data.DataColumn[] {
+            this.relationFK__Runner__CountryC__5812160E = new global::System.Data.DataRelation("FK__Runner__CountryC__5812160E", new global::System.Data.DataColumn[] {
                         this.tableCountry.CountryCodeColumn}, new global::System.Data.DataColumn[] {
                         this.tableRunner.CountryCodeColumn}, false);
-            this.Relations.Add(this.relationFK__Runner__CountryC__5535A963);
-            this.relationFK__Runner__Email__534D60F1 = new global::System.Data.DataRelation("FK__Runner__Email__534D60F1", new global::System.Data.DataColumn[] {
+            this.Relations.Add(this.relationFK__Runner__CountryC__5812160E);
+            this.relationFK__Runner__Email__59063A47 = new global::System.Data.DataRelation("FK__Runner__Email__59063A47", new global::System.Data.DataColumn[] {
                         this.tableUser.EmailColumn}, new global::System.Data.DataColumn[] {
                         this.tableRunner.EmailColumn}, false);
-            this.Relations.Add(this.relationFK__Runner__Email__534D60F1);
-            this.relationFK__Runner__Gender__5441852A = new global::System.Data.DataRelation("FK__Runner__Gender__5441852A", new global::System.Data.DataColumn[] {
+            this.Relations.Add(this.relationFK__Runner__Email__59063A47);
+            this.relationFK__Runner__Gender__59FA5E80 = new global::System.Data.DataRelation("FK__Runner__Gender__59FA5E80", new global::System.Data.DataColumn[] {
                         this.tableGender.GenderColumn}, new global::System.Data.DataColumn[] {
                         this.tableRunner.GenderColumn}, false);
-            this.Relations.Add(this.relationFK__Runner__Gender__5441852A);
+            this.Relations.Add(this.relationFK__Runner__Gender__59FA5E80);
             this.relationFK_Staff_Position = new global::System.Data.DataRelation("FK_Staff_Position", new global::System.Data.DataColumn[] {
                         this.tablePosition.PositionIdColumn}, new global::System.Data.DataColumn[] {
                         this.tableStaff.PositionIdColumn}, false);
@@ -694,18 +694,18 @@ namespace Practica_new {
                         this.tableStaff.StaffIdColumn}, new global::System.Data.DataColumn[] {
                         this.tableTimesheet.StaffIdColumn}, false);
             this.Relations.Add(this.relationFK_Timesheet_Staff);
-            this.relationFK__User__RoleId__52593CB8 = new global::System.Data.DataRelation("FK__User__RoleId__52593CB8", new global::System.Data.DataColumn[] {
+            this.relationFK__User__RoleId__5CD6CB2B = new global::System.Data.DataRelation("FK__User__RoleId__5CD6CB2B", new global::System.Data.DataColumn[] {
                         this.tableRole.RoleIdColumn}, new global::System.Data.DataColumn[] {
                         this.tableUser.RoleIdColumn}, false);
-            this.Relations.Add(this.relationFK__User__RoleId__52593CB8);
-            this.relationFK__Volunteer__Count__571DF1D5 = new global::System.Data.DataRelation("FK__Volunteer__Count__571DF1D5", new global::System.Data.DataColumn[] {
+            this.Relations.Add(this.relationFK__User__RoleId__5CD6CB2B);
+            this.relationFK__Volunteer__Count__5DCAEF64 = new global::System.Data.DataRelation("FK__Volunteer__Count__5DCAEF64", new global::System.Data.DataColumn[] {
                         this.tableCountry.CountryCodeColumn}, new global::System.Data.DataColumn[] {
                         this.tableVolunteer.CountryCodeColumn}, false);
-            this.Relations.Add(this.relationFK__Volunteer__Count__571DF1D5);
-            this.relationFK__Volunteer__Gende__5629CD9C = new global::System.Data.DataRelation("FK__Volunteer__Gende__5629CD9C", new global::System.Data.DataColumn[] {
+            this.Relations.Add(this.relationFK__Volunteer__Count__5DCAEF64);
+            this.relationFK__Volunteer__Gende__5EBF139D = new global::System.Data.DataRelation("FK__Volunteer__Gende__5EBF139D", new global::System.Data.DataColumn[] {
                         this.tableGender.GenderColumn}, new global::System.Data.DataColumn[] {
                         this.tableVolunteer.GenderColumn}, false);
-            this.Relations.Add(this.relationFK__Volunteer__Gende__5629CD9C);
+            this.Relations.Add(this.relationFK__Volunteer__Gende__5EBF139D);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -827,7 +827,7 @@ namespace Practica_new {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            WSR123 ds = new WSR123();
+            WSR123DataSet ds = new WSR123DataSet();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -1174,7 +1174,7 @@ namespace Practica_new {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WSR123 ds = new WSR123();
+                WSR123DataSet ds = new WSR123DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1465,7 +1465,7 @@ namespace Practica_new {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WSR123 ds = new WSR123();
+                WSR123DataSet ds = new WSR123DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1813,7 +1813,7 @@ namespace Practica_new {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WSR123 ds = new WSR123();
+                WSR123DataSet ds = new WSR123DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2088,7 +2088,7 @@ namespace Practica_new {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WSR123 ds = new WSR123();
+                WSR123DataSet ds = new WSR123DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2347,7 +2347,7 @@ namespace Practica_new {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WSR123 ds = new WSR123();
+                WSR123DataSet ds = new WSR123DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2667,7 +2667,7 @@ namespace Practica_new {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WSR123 ds = new WSR123();
+                WSR123DataSet ds = new WSR123DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2985,7 +2985,7 @@ namespace Practica_new {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WSR123 ds = new WSR123();
+                WSR123DataSet ds = new WSR123DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3275,7 +3275,7 @@ namespace Practica_new {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WSR123 ds = new WSR123();
+                WSR123DataSet ds = new WSR123DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3643,7 +3643,7 @@ namespace Practica_new {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WSR123 ds = new WSR123();
+                WSR123DataSet ds = new WSR123DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3964,7 +3964,7 @@ namespace Practica_new {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WSR123 ds = new WSR123();
+                WSR123DataSet ds = new WSR123DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -4239,7 +4239,7 @@ namespace Practica_new {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WSR123 ds = new WSR123();
+                WSR123DataSet ds = new WSR123DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -4514,7 +4514,7 @@ namespace Practica_new {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WSR123 ds = new WSR123();
+                WSR123DataSet ds = new WSR123DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -4700,7 +4700,7 @@ namespace Practica_new {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public RunnerRow AddRunnerRow(UserRow parentUserRowByFK__Runner__Email__534D60F1, GenderRow parentGenderRowByFK__Runner__Gender__5441852A, System.DateTime DateOfBirth, CountryRow parentCountryRowByFK__Runner__CountryC__5535A963) {
+            public RunnerRow AddRunnerRow(UserRow parentUserRowByFK__Runner__Email__59063A47, GenderRow parentGenderRowByFK__Runner__Gender__59FA5E80, System.DateTime DateOfBirth, CountryRow parentCountryRowByFK__Runner__CountryC__5812160E) {
                 RunnerRow rowRunnerRow = ((RunnerRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -4708,14 +4708,14 @@ namespace Practica_new {
                         null,
                         DateOfBirth,
                         null};
-                if ((parentUserRowByFK__Runner__Email__534D60F1 != null)) {
-                    columnValuesArray[1] = parentUserRowByFK__Runner__Email__534D60F1[0];
+                if ((parentUserRowByFK__Runner__Email__59063A47 != null)) {
+                    columnValuesArray[1] = parentUserRowByFK__Runner__Email__59063A47[0];
                 }
-                if ((parentGenderRowByFK__Runner__Gender__5441852A != null)) {
-                    columnValuesArray[2] = parentGenderRowByFK__Runner__Gender__5441852A[0];
+                if ((parentGenderRowByFK__Runner__Gender__59FA5E80 != null)) {
+                    columnValuesArray[2] = parentGenderRowByFK__Runner__Gender__59FA5E80[0];
                 }
-                if ((parentCountryRowByFK__Runner__CountryC__5535A963 != null)) {
-                    columnValuesArray[4] = parentCountryRowByFK__Runner__CountryC__5535A963[0];
+                if ((parentCountryRowByFK__Runner__CountryC__5812160E != null)) {
+                    columnValuesArray[4] = parentCountryRowByFK__Runner__CountryC__5812160E[0];
                 }
                 rowRunnerRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowRunnerRow);
@@ -4847,7 +4847,7 @@ namespace Practica_new {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WSR123 ds = new WSR123();
+                WSR123DataSet ds = new WSR123DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -5155,7 +5155,7 @@ namespace Practica_new {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WSR123 ds = new WSR123();
+                WSR123DataSet ds = new WSR123DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -5529,7 +5529,7 @@ namespace Practica_new {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WSR123 ds = new WSR123();
+                WSR123DataSet ds = new WSR123DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -5853,7 +5853,7 @@ namespace Practica_new {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WSR123 ds = new WSR123();
+                WSR123DataSet ds = new WSR123DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -6039,7 +6039,7 @@ namespace Practica_new {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public UserRow AddUserRow(string Email, string Password, string FirstName, string LastName, RoleRow parentRoleRowByFK__User__RoleId__52593CB8) {
+            public UserRow AddUserRow(string Email, string Password, string FirstName, string LastName, RoleRow parentRoleRowByFK__User__RoleId__5CD6CB2B) {
                 UserRow rowUserRow = ((UserRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         Email,
@@ -6047,8 +6047,8 @@ namespace Practica_new {
                         FirstName,
                         LastName,
                         null};
-                if ((parentRoleRowByFK__User__RoleId__52593CB8 != null)) {
-                    columnValuesArray[4] = parentRoleRowByFK__User__RoleId__52593CB8[0];
+                if ((parentRoleRowByFK__User__RoleId__5CD6CB2B != null)) {
+                    columnValuesArray[4] = parentRoleRowByFK__User__RoleId__5CD6CB2B[0];
                 }
                 rowUserRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowUserRow);
@@ -6177,7 +6177,7 @@ namespace Practica_new {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WSR123 ds = new WSR123();
+                WSR123DataSet ds = new WSR123DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -6363,7 +6363,7 @@ namespace Practica_new {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public VolunteerRow AddVolunteerRow(string FirstName, string LastName, CountryRow parentCountryRowByFK__Volunteer__Count__571DF1D5, GenderRow parentGenderRowByFK__Volunteer__Gende__5629CD9C) {
+            public VolunteerRow AddVolunteerRow(string FirstName, string LastName, CountryRow parentCountryRowByFK__Volunteer__Count__5DCAEF64, GenderRow parentGenderRowByFK__Volunteer__Gende__5EBF139D) {
                 VolunteerRow rowVolunteerRow = ((VolunteerRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -6371,11 +6371,11 @@ namespace Practica_new {
                         LastName,
                         null,
                         null};
-                if ((parentCountryRowByFK__Volunteer__Count__571DF1D5 != null)) {
-                    columnValuesArray[3] = parentCountryRowByFK__Volunteer__Count__571DF1D5[0];
+                if ((parentCountryRowByFK__Volunteer__Count__5DCAEF64 != null)) {
+                    columnValuesArray[3] = parentCountryRowByFK__Volunteer__Count__5DCAEF64[0];
                 }
-                if ((parentGenderRowByFK__Volunteer__Gende__5629CD9C != null)) {
-                    columnValuesArray[4] = parentGenderRowByFK__Volunteer__Gende__5629CD9C[0];
+                if ((parentGenderRowByFK__Volunteer__Gende__5EBF139D != null)) {
+                    columnValuesArray[4] = parentGenderRowByFK__Volunteer__Gende__5EBF139D[0];
                 }
                 rowVolunteerRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowVolunteerRow);
@@ -6507,7 +6507,7 @@ namespace Practica_new {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                WSR123 ds = new WSR123();
+                WSR123DataSet ds = new WSR123DataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -6709,22 +6709,22 @@ namespace Practica_new {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public RunnerRow[] GetRunnerRows() {
-                if ((this.Table.ChildRelations["FK__Runner__CountryC__5535A963"] == null)) {
+                if ((this.Table.ChildRelations["FK__Runner__CountryC__5812160E"] == null)) {
                     return new RunnerRow[0];
                 }
                 else {
-                    return ((RunnerRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Runner__CountryC__5535A963"])));
+                    return ((RunnerRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Runner__CountryC__5812160E"])));
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public VolunteerRow[] GetVolunteerRows() {
-                if ((this.Table.ChildRelations["FK__Volunteer__Count__571DF1D5"] == null)) {
+                if ((this.Table.ChildRelations["FK__Volunteer__Count__5DCAEF64"] == null)) {
                     return new VolunteerRow[0];
                 }
                 else {
-                    return ((VolunteerRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Volunteer__Count__571DF1D5"])));
+                    return ((VolunteerRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Volunteer__Count__5DCAEF64"])));
                 }
             }
         }
@@ -6937,22 +6937,22 @@ namespace Practica_new {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public RunnerRow[] GetRunnerRows() {
-                if ((this.Table.ChildRelations["FK__Runner__Gender__5441852A"] == null)) {
+                if ((this.Table.ChildRelations["FK__Runner__Gender__59FA5E80"] == null)) {
                     return new RunnerRow[0];
                 }
                 else {
-                    return ((RunnerRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Runner__Gender__5441852A"])));
+                    return ((RunnerRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Runner__Gender__59FA5E80"])));
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public VolunteerRow[] GetVolunteerRows() {
-                if ((this.Table.ChildRelations["FK__Volunteer__Gende__5629CD9C"] == null)) {
+                if ((this.Table.ChildRelations["FK__Volunteer__Gende__5EBF139D"] == null)) {
                     return new VolunteerRow[0];
                 }
                 else {
-                    return ((VolunteerRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Volunteer__Gende__5629CD9C"])));
+                    return ((VolunteerRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Volunteer__Gende__5EBF139D"])));
                 }
             }
         }
@@ -7524,11 +7524,11 @@ namespace Practica_new {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public UserRow[] GetUserRows() {
-                if ((this.Table.ChildRelations["FK__User__RoleId__52593CB8"] == null)) {
+                if ((this.Table.ChildRelations["FK__User__RoleId__5CD6CB2B"] == null)) {
                     return new UserRow[0];
                 }
                 else {
-                    return ((UserRow[])(base.GetChildRows(this.Table.ChildRelations["FK__User__RoleId__52593CB8"])));
+                    return ((UserRow[])(base.GetChildRows(this.Table.ChildRelations["FK__User__RoleId__5CD6CB2B"])));
                 }
             }
         }
@@ -7611,10 +7611,10 @@ namespace Practica_new {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public CountryRow CountryRow {
                 get {
-                    return ((CountryRow)(this.GetParentRow(this.Table.ParentRelations["FK__Runner__CountryC__5535A963"])));
+                    return ((CountryRow)(this.GetParentRow(this.Table.ParentRelations["FK__Runner__CountryC__5812160E"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["FK__Runner__CountryC__5535A963"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["FK__Runner__CountryC__5812160E"]);
                 }
             }
             
@@ -7622,10 +7622,10 @@ namespace Practica_new {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public UserRow UserRow {
                 get {
-                    return ((UserRow)(this.GetParentRow(this.Table.ParentRelations["FK__Runner__Email__534D60F1"])));
+                    return ((UserRow)(this.GetParentRow(this.Table.ParentRelations["FK__Runner__Email__59063A47"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["FK__Runner__Email__534D60F1"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["FK__Runner__Email__59063A47"]);
                 }
             }
             
@@ -7633,10 +7633,10 @@ namespace Practica_new {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public GenderRow GenderRow {
                 get {
-                    return ((GenderRow)(this.GetParentRow(this.Table.ParentRelations["FK__Runner__Gender__5441852A"])));
+                    return ((GenderRow)(this.GetParentRow(this.Table.ParentRelations["FK__Runner__Gender__59FA5E80"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["FK__Runner__Gender__5441852A"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["FK__Runner__Gender__59FA5E80"]);
                 }
             }
             
@@ -8035,10 +8035,10 @@ namespace Practica_new {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public RoleRow RoleRow {
                 get {
-                    return ((RoleRow)(this.GetParentRow(this.Table.ParentRelations["FK__User__RoleId__52593CB8"])));
+                    return ((RoleRow)(this.GetParentRow(this.Table.ParentRelations["FK__User__RoleId__5CD6CB2B"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["FK__User__RoleId__52593CB8"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["FK__User__RoleId__5CD6CB2B"]);
                 }
             }
             
@@ -8069,11 +8069,11 @@ namespace Practica_new {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public RunnerRow[] GetRunnerRows() {
-                if ((this.Table.ChildRelations["FK__Runner__Email__534D60F1"] == null)) {
+                if ((this.Table.ChildRelations["FK__Runner__Email__59063A47"] == null)) {
                     return new RunnerRow[0];
                 }
                 else {
-                    return ((RunnerRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Runner__Email__534D60F1"])));
+                    return ((RunnerRow[])(base.GetChildRows(this.Table.ChildRelations["FK__Runner__Email__59063A47"])));
                 }
             }
         }
@@ -8161,10 +8161,10 @@ namespace Practica_new {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public CountryRow CountryRow {
                 get {
-                    return ((CountryRow)(this.GetParentRow(this.Table.ParentRelations["FK__Volunteer__Count__571DF1D5"])));
+                    return ((CountryRow)(this.GetParentRow(this.Table.ParentRelations["FK__Volunteer__Count__5DCAEF64"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["FK__Volunteer__Count__571DF1D5"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["FK__Volunteer__Count__5DCAEF64"]);
                 }
             }
             
@@ -8172,10 +8172,10 @@ namespace Practica_new {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public GenderRow GenderRow {
                 get {
-                    return ((GenderRow)(this.GetParentRow(this.Table.ParentRelations["FK__Volunteer__Gende__5629CD9C"])));
+                    return ((GenderRow)(this.GetParentRow(this.Table.ParentRelations["FK__Volunteer__Gende__5EBF139D"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["FK__Volunteer__Gende__5629CD9C"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["FK__Volunteer__Gende__5EBF139D"]);
                 }
             }
             
@@ -8817,7 +8817,7 @@ namespace Practica_new {
         }
     }
 }
-namespace Practica_new.WSR123TableAdapters {
+namespace Practica_new.WSR123DataSetTableAdapters {
     
     
     /// <summary>
@@ -8987,7 +8987,7 @@ SELECT CharityId, CharityName, CharityDescription, CharityLogo FROM Charity WHER
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123ConnectionString;
+            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9004,7 +9004,7 @@ SELECT CharityId, CharityName, CharityDescription, CharityLogo FROM Charity WHER
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WSR123.CharityDataTable dataTable) {
+        public virtual int Fill(WSR123DataSet.CharityDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -9017,9 +9017,9 @@ SELECT CharityId, CharityName, CharityDescription, CharityLogo FROM Charity WHER
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WSR123.CharityDataTable GetData() {
+        public virtual WSR123DataSet.CharityDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WSR123.CharityDataTable dataTable = new WSR123.CharityDataTable();
+            WSR123DataSet.CharityDataTable dataTable = new WSR123DataSet.CharityDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -9027,14 +9027,14 @@ SELECT CharityId, CharityName, CharityDescription, CharityLogo FROM Charity WHER
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123.CharityDataTable dataTable) {
+        public virtual int Update(WSR123DataSet.CharityDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123 dataSet) {
+        public virtual int Update(WSR123DataSet dataSet) {
             return this.Adapter.Update(dataSet, "Charity");
         }
         
@@ -9368,7 +9368,7 @@ SELECT CountryCode, CountryName, CountryFlag FROM Country WHERE (CountryCode = @
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123ConnectionString;
+            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9385,7 +9385,7 @@ SELECT CountryCode, CountryName, CountryFlag FROM Country WHERE (CountryCode = @
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WSR123.CountryDataTable dataTable) {
+        public virtual int Fill(WSR123DataSet.CountryDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -9398,9 +9398,9 @@ SELECT CountryCode, CountryName, CountryFlag FROM Country WHERE (CountryCode = @
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WSR123.CountryDataTable GetData() {
+        public virtual WSR123DataSet.CountryDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WSR123.CountryDataTable dataTable = new WSR123.CountryDataTable();
+            WSR123DataSet.CountryDataTable dataTable = new WSR123DataSet.CountryDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -9408,14 +9408,14 @@ SELECT CountryCode, CountryName, CountryFlag FROM Country WHERE (CountryCode = @
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123.CountryDataTable dataTable) {
+        public virtual int Update(WSR123DataSet.CountryDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123 dataSet) {
+        public virtual int Update(WSR123DataSet dataSet) {
             return this.Adapter.Update(dataSet, "Country");
         }
         
@@ -9761,7 +9761,7 @@ SELECT EventId, EventName, EventTypeId, MarathonId, StartDateTime, Cost, MaxPart
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123ConnectionString;
+            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9779,7 +9779,7 @@ SELECT EventId, EventName, EventTypeId, MarathonId, StartDateTime, Cost, MaxPart
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WSR123.EventDataTable dataTable) {
+        public virtual int Fill(WSR123DataSet.EventDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -9792,9 +9792,9 @@ SELECT EventId, EventName, EventTypeId, MarathonId, StartDateTime, Cost, MaxPart
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WSR123.EventDataTable GetData() {
+        public virtual WSR123DataSet.EventDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WSR123.EventDataTable dataTable = new WSR123.EventDataTable();
+            WSR123DataSet.EventDataTable dataTable = new WSR123DataSet.EventDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -9802,14 +9802,14 @@ SELECT EventId, EventName, EventTypeId, MarathonId, StartDateTime, Cost, MaxPart
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123.EventDataTable dataTable) {
+        public virtual int Update(WSR123DataSet.EventDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123 dataSet) {
+        public virtual int Update(WSR123DataSet dataSet) {
             return this.Adapter.Update(dataSet, "Event");
         }
         
@@ -10214,7 +10214,7 @@ SELECT EventTypeId, EventTypeName FROM EventType WHERE (EventTypeId = @EventType
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123ConnectionString;
+            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10231,7 +10231,7 @@ SELECT EventTypeId, EventTypeName FROM EventType WHERE (EventTypeId = @EventType
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WSR123.EventTypeDataTable dataTable) {
+        public virtual int Fill(WSR123DataSet.EventTypeDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -10244,9 +10244,9 @@ SELECT EventTypeId, EventTypeName FROM EventType WHERE (EventTypeId = @EventType
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WSR123.EventTypeDataTable GetData() {
+        public virtual WSR123DataSet.EventTypeDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WSR123.EventTypeDataTable dataTable = new WSR123.EventTypeDataTable();
+            WSR123DataSet.EventTypeDataTable dataTable = new WSR123DataSet.EventTypeDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -10254,14 +10254,14 @@ SELECT EventTypeId, EventTypeName FROM EventType WHERE (EventTypeId = @EventType
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123.EventTypeDataTable dataTable) {
+        public virtual int Update(WSR123DataSet.EventTypeDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123 dataSet) {
+        public virtual int Update(WSR123DataSet dataSet) {
             return this.Adapter.Update(dataSet, "EventType");
         }
         
@@ -10547,7 +10547,7 @@ SELECT EventTypeId, EventTypeName FROM EventType WHERE (EventTypeId = @EventType
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123ConnectionString;
+            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10564,7 +10564,7 @@ SELECT EventTypeId, EventTypeName FROM EventType WHERE (EventTypeId = @EventType
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WSR123.GenderDataTable dataTable) {
+        public virtual int Fill(WSR123DataSet.GenderDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -10577,9 +10577,9 @@ SELECT EventTypeId, EventTypeName FROM EventType WHERE (EventTypeId = @EventType
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WSR123.GenderDataTable GetData() {
+        public virtual WSR123DataSet.GenderDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WSR123.GenderDataTable dataTable = new WSR123.GenderDataTable();
+            WSR123DataSet.GenderDataTable dataTable = new WSR123DataSet.GenderDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -10587,14 +10587,14 @@ SELECT EventTypeId, EventTypeName FROM EventType WHERE (EventTypeId = @EventType
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123.GenderDataTable dataTable) {
+        public virtual int Update(WSR123DataSet.GenderDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123 dataSet) {
+        public virtual int Update(WSR123DataSet dataSet) {
             return this.Adapter.Update(dataSet, "Gender");
         }
         
@@ -10879,7 +10879,7 @@ SELECT MarathonId, MarathonName, CityName, CountryCode, YearHeld FROM Marathon W
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123ConnectionString;
+            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10897,7 +10897,7 @@ SELECT MarathonId, MarathonName, CityName, CountryCode, YearHeld FROM Marathon W
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WSR123.MarathonDataTable dataTable) {
+        public virtual int Fill(WSR123DataSet.MarathonDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -10910,9 +10910,9 @@ SELECT MarathonId, MarathonName, CityName, CountryCode, YearHeld FROM Marathon W
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WSR123.MarathonDataTable GetData() {
+        public virtual WSR123DataSet.MarathonDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WSR123.MarathonDataTable dataTable = new WSR123.MarathonDataTable();
+            WSR123DataSet.MarathonDataTable dataTable = new WSR123DataSet.MarathonDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -10920,14 +10920,14 @@ SELECT MarathonId, MarathonName, CityName, CountryCode, YearHeld FROM Marathon W
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123.MarathonDataTable dataTable) {
+        public virtual int Update(WSR123DataSet.MarathonDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123 dataSet) {
+        public virtual int Update(WSR123DataSet dataSet) {
             return this.Adapter.Update(dataSet, "Marathon");
         }
         
@@ -11298,7 +11298,7 @@ SELECT PositionId, PositionName, PositionDescription, PayPeriod, Payrate FROM Po
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123ConnectionString;
+            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -11316,7 +11316,7 @@ SELECT PositionId, PositionName, PositionDescription, PayPeriod, Payrate FROM Po
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WSR123.PositionDataTable dataTable) {
+        public virtual int Fill(WSR123DataSet.PositionDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -11329,9 +11329,9 @@ SELECT PositionId, PositionName, PositionDescription, PayPeriod, Payrate FROM Po
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WSR123.PositionDataTable GetData() {
+        public virtual WSR123DataSet.PositionDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WSR123.PositionDataTable dataTable = new WSR123.PositionDataTable();
+            WSR123DataSet.PositionDataTable dataTable = new WSR123DataSet.PositionDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -11339,14 +11339,14 @@ SELECT PositionId, PositionName, PositionDescription, PayPeriod, Payrate FROM Po
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123.PositionDataTable dataTable) {
+        public virtual int Update(WSR123DataSet.PositionDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123 dataSet) {
+        public virtual int Update(WSR123DataSet dataSet) {
             return this.Adapter.Update(dataSet, "Position");
         }
         
@@ -11709,7 +11709,7 @@ SELECT RaceKitOptionId, RaceKitOption, Cost FROM RaceKitOption WHERE (RaceKitOpt
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123ConnectionString;
+            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -11726,7 +11726,7 @@ SELECT RaceKitOptionId, RaceKitOption, Cost FROM RaceKitOption WHERE (RaceKitOpt
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WSR123.RaceKitOptionDataTable dataTable) {
+        public virtual int Fill(WSR123DataSet.RaceKitOptionDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -11739,9 +11739,9 @@ SELECT RaceKitOptionId, RaceKitOption, Cost FROM RaceKitOption WHERE (RaceKitOpt
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WSR123.RaceKitOptionDataTable GetData() {
+        public virtual WSR123DataSet.RaceKitOptionDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WSR123.RaceKitOptionDataTable dataTable = new WSR123.RaceKitOptionDataTable();
+            WSR123DataSet.RaceKitOptionDataTable dataTable = new WSR123DataSet.RaceKitOptionDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -11749,14 +11749,14 @@ SELECT RaceKitOptionId, RaceKitOption, Cost FROM RaceKitOption WHERE (RaceKitOpt
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123.RaceKitOptionDataTable dataTable) {
+        public virtual int Update(WSR123DataSet.RaceKitOptionDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123 dataSet) {
+        public virtual int Update(WSR123DataSet dataSet) {
             return this.Adapter.Update(dataSet, "RaceKitOption");
         }
         
@@ -12080,7 +12080,7 @@ SELECT RegistrationId, RunnerId, RegistrationDateTime, RaceKitOptionId, Registra
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123ConnectionString;
+            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -12098,7 +12098,7 @@ SELECT RegistrationId, RunnerId, RegistrationDateTime, RaceKitOptionId, Registra
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WSR123.RegistrationDataTable dataTable) {
+        public virtual int Fill(WSR123DataSet.RegistrationDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -12111,9 +12111,9 @@ SELECT RegistrationId, RunnerId, RegistrationDateTime, RaceKitOptionId, Registra
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WSR123.RegistrationDataTable GetData() {
+        public virtual WSR123DataSet.RegistrationDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WSR123.RegistrationDataTable dataTable = new WSR123.RegistrationDataTable();
+            WSR123DataSet.RegistrationDataTable dataTable = new WSR123DataSet.RegistrationDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -12121,14 +12121,14 @@ SELECT RegistrationId, RunnerId, RegistrationDateTime, RaceKitOptionId, Registra
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123.RegistrationDataTable dataTable) {
+        public virtual int Update(WSR123DataSet.RegistrationDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123 dataSet) {
+        public virtual int Update(WSR123DataSet dataSet) {
             return this.Adapter.Update(dataSet, "Registration");
         }
         
@@ -12456,7 +12456,7 @@ SELECT RegistrationEventId, RegistrationId, EventId, BibNumber, RaceTime FROM Re
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123ConnectionString;
+            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -12474,7 +12474,7 @@ SELECT RegistrationEventId, RegistrationId, EventId, BibNumber, RaceTime FROM Re
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WSR123.RegistrationEventDataTable dataTable) {
+        public virtual int Fill(WSR123DataSet.RegistrationEventDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -12487,9 +12487,9 @@ SELECT RegistrationEventId, RegistrationId, EventId, BibNumber, RaceTime FROM Re
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WSR123.RegistrationEventDataTable GetData() {
+        public virtual WSR123DataSet.RegistrationEventDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WSR123.RegistrationEventDataTable dataTable = new WSR123.RegistrationEventDataTable();
+            WSR123DataSet.RegistrationEventDataTable dataTable = new WSR123DataSet.RegistrationEventDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -12497,14 +12497,14 @@ SELECT RegistrationEventId, RegistrationId, EventId, BibNumber, RaceTime FROM Re
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123.RegistrationEventDataTable dataTable) {
+        public virtual int Update(WSR123DataSet.RegistrationEventDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123 dataSet) {
+        public virtual int Update(WSR123DataSet dataSet) {
             return this.Adapter.Update(dataSet, "RegistrationEvent");
         }
         
@@ -12836,7 +12836,7 @@ SELECT RegistrationStatusId, RegistrationStatus FROM RegistrationStatus WHERE (R
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123ConnectionString;
+            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -12853,7 +12853,7 @@ SELECT RegistrationStatusId, RegistrationStatus FROM RegistrationStatus WHERE (R
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WSR123.RegistrationStatusDataTable dataTable) {
+        public virtual int Fill(WSR123DataSet.RegistrationStatusDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -12866,9 +12866,9 @@ SELECT RegistrationStatusId, RegistrationStatus FROM RegistrationStatus WHERE (R
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WSR123.RegistrationStatusDataTable GetData() {
+        public virtual WSR123DataSet.RegistrationStatusDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WSR123.RegistrationStatusDataTable dataTable = new WSR123.RegistrationStatusDataTable();
+            WSR123DataSet.RegistrationStatusDataTable dataTable = new WSR123DataSet.RegistrationStatusDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -12876,14 +12876,14 @@ SELECT RegistrationStatusId, RegistrationStatus FROM RegistrationStatus WHERE (R
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123.RegistrationStatusDataTable dataTable) {
+        public virtual int Update(WSR123DataSet.RegistrationStatusDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123 dataSet) {
+        public virtual int Update(WSR123DataSet dataSet) {
             return this.Adapter.Update(dataSet, "RegistrationStatus");
         }
         
@@ -13155,7 +13155,7 @@ SELECT RegistrationStatusId, RegistrationStatus FROM RegistrationStatus WHERE (R
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123ConnectionString;
+            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -13172,7 +13172,7 @@ SELECT RegistrationStatusId, RegistrationStatus FROM RegistrationStatus WHERE (R
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WSR123.RoleDataTable dataTable) {
+        public virtual int Fill(WSR123DataSet.RoleDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -13185,9 +13185,9 @@ SELECT RegistrationStatusId, RegistrationStatus FROM RegistrationStatus WHERE (R
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WSR123.RoleDataTable GetData() {
+        public virtual WSR123DataSet.RoleDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WSR123.RoleDataTable dataTable = new WSR123.RoleDataTable();
+            WSR123DataSet.RoleDataTable dataTable = new WSR123DataSet.RoleDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -13195,14 +13195,14 @@ SELECT RegistrationStatusId, RegistrationStatus FROM RegistrationStatus WHERE (R
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123.RoleDataTable dataTable) {
+        public virtual int Update(WSR123DataSet.RoleDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123 dataSet) {
+        public virtual int Update(WSR123DataSet dataSet) {
             return this.Adapter.Update(dataSet, "Role");
         }
         
@@ -13510,7 +13510,7 @@ SELECT RunnerId, Email, Gender, DateOfBirth, CountryCode FROM Runner WHERE (Runn
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123ConnectionString;
+            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -13527,7 +13527,7 @@ SELECT RunnerId, Email, Gender, DateOfBirth, CountryCode FROM Runner WHERE (Runn
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WSR123.RunnerDataTable dataTable) {
+        public virtual int Fill(WSR123DataSet.RunnerDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -13540,9 +13540,9 @@ SELECT RunnerId, Email, Gender, DateOfBirth, CountryCode FROM Runner WHERE (Runn
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WSR123.RunnerDataTable GetData() {
+        public virtual WSR123DataSet.RunnerDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WSR123.RunnerDataTable dataTable = new WSR123.RunnerDataTable();
+            WSR123DataSet.RunnerDataTable dataTable = new WSR123DataSet.RunnerDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -13550,14 +13550,14 @@ SELECT RunnerId, Email, Gender, DateOfBirth, CountryCode FROM Runner WHERE (Runn
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123.RunnerDataTable dataTable) {
+        public virtual int Update(WSR123DataSet.RunnerDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123 dataSet) {
+        public virtual int Update(WSR123DataSet dataSet) {
             return this.Adapter.Update(dataSet, "Runner");
         }
         
@@ -13916,7 +13916,7 @@ SELECT SponsorshipId, SponsorName, RegistrationId, Amount FROM Sponsorship WHERE
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123ConnectionString;
+            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -13933,7 +13933,7 @@ SELECT SponsorshipId, SponsorName, RegistrationId, Amount FROM Sponsorship WHERE
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WSR123.SponsorshipDataTable dataTable) {
+        public virtual int Fill(WSR123DataSet.SponsorshipDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -13946,9 +13946,9 @@ SELECT SponsorshipId, SponsorName, RegistrationId, Amount FROM Sponsorship WHERE
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WSR123.SponsorshipDataTable GetData() {
+        public virtual WSR123DataSet.SponsorshipDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WSR123.SponsorshipDataTable dataTable = new WSR123.SponsorshipDataTable();
+            WSR123DataSet.SponsorshipDataTable dataTable = new WSR123DataSet.SponsorshipDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -13956,14 +13956,14 @@ SELECT SponsorshipId, SponsorName, RegistrationId, Amount FROM Sponsorship WHERE
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123.SponsorshipDataTable dataTable) {
+        public virtual int Update(WSR123DataSet.SponsorshipDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123 dataSet) {
+        public virtual int Update(WSR123DataSet dataSet) {
             return this.Adapter.Update(dataSet, "Sponsorship");
         }
         
@@ -14272,7 +14272,7 @@ SELECT StaffId, FirstName, LastName, Email, DateOfBirth, Gender, PositionId, Com
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123ConnectionString;
+            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -14290,7 +14290,7 @@ SELECT StaffId, FirstName, LastName, Email, DateOfBirth, Gender, PositionId, Com
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WSR123.StaffDataTable dataTable) {
+        public virtual int Fill(WSR123DataSet.StaffDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -14303,9 +14303,9 @@ SELECT StaffId, FirstName, LastName, Email, DateOfBirth, Gender, PositionId, Com
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WSR123.StaffDataTable GetData() {
+        public virtual WSR123DataSet.StaffDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WSR123.StaffDataTable dataTable = new WSR123.StaffDataTable();
+            WSR123DataSet.StaffDataTable dataTable = new WSR123DataSet.StaffDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -14313,14 +14313,14 @@ SELECT StaffId, FirstName, LastName, Email, DateOfBirth, Gender, PositionId, Com
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123.StaffDataTable dataTable) {
+        public virtual int Update(WSR123DataSet.StaffDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123 dataSet) {
+        public virtual int Update(WSR123DataSet dataSet) {
             return this.Adapter.Update(dataSet, "Staff");
         }
         
@@ -14730,7 +14730,7 @@ SELECT TimesheetId, StaffId, StartDateTime, EndDateTime, PayAmount FROM Timeshee
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123ConnectionString;
+            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -14748,7 +14748,7 @@ SELECT TimesheetId, StaffId, StartDateTime, EndDateTime, PayAmount FROM Timeshee
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WSR123.TimesheetDataTable dataTable) {
+        public virtual int Fill(WSR123DataSet.TimesheetDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -14761,9 +14761,9 @@ SELECT TimesheetId, StaffId, StartDateTime, EndDateTime, PayAmount FROM Timeshee
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WSR123.TimesheetDataTable GetData() {
+        public virtual WSR123DataSet.TimesheetDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WSR123.TimesheetDataTable dataTable = new WSR123.TimesheetDataTable();
+            WSR123DataSet.TimesheetDataTable dataTable = new WSR123DataSet.TimesheetDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -14771,14 +14771,14 @@ SELECT TimesheetId, StaffId, StartDateTime, EndDateTime, PayAmount FROM Timeshee
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123.TimesheetDataTable dataTable) {
+        public virtual int Update(WSR123DataSet.TimesheetDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123 dataSet) {
+        public virtual int Update(WSR123DataSet dataSet) {
             return this.Adapter.Update(dataSet, "Timesheet");
         }
         
@@ -15084,7 +15084,7 @@ SELECT Email, Password, FirstName, LastName, RoleId FROM [User] WHERE (Email = @
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123ConnectionString;
+            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -15101,7 +15101,7 @@ SELECT Email, Password, FirstName, LastName, RoleId FROM [User] WHERE (Email = @
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WSR123.UserDataTable dataTable) {
+        public virtual int Fill(WSR123DataSet.UserDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -15114,9 +15114,9 @@ SELECT Email, Password, FirstName, LastName, RoleId FROM [User] WHERE (Email = @
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WSR123.UserDataTable GetData() {
+        public virtual WSR123DataSet.UserDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WSR123.UserDataTable dataTable = new WSR123.UserDataTable();
+            WSR123DataSet.UserDataTable dataTable = new WSR123DataSet.UserDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -15124,14 +15124,14 @@ SELECT Email, Password, FirstName, LastName, RoleId FROM [User] WHERE (Email = @
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123.UserDataTable dataTable) {
+        public virtual int Update(WSR123DataSet.UserDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123 dataSet) {
+        public virtual int Update(WSR123DataSet dataSet) {
             return this.Adapter.Update(dataSet, "User");
         }
         
@@ -15522,7 +15522,7 @@ SELECT VolunteerId, FirstName, LastName, CountryCode, Gender FROM Volunteer WHER
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123ConnectionString;
+            this._connection.ConnectionString = global::Practica_new.Properties.Settings.Default.WSR123;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -15539,7 +15539,7 @@ SELECT VolunteerId, FirstName, LastName, CountryCode, Gender FROM Volunteer WHER
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(WSR123.VolunteerDataTable dataTable) {
+        public virtual int Fill(WSR123DataSet.VolunteerDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -15552,9 +15552,9 @@ SELECT VolunteerId, FirstName, LastName, CountryCode, Gender FROM Volunteer WHER
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual WSR123.VolunteerDataTable GetData() {
+        public virtual WSR123DataSet.VolunteerDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            WSR123.VolunteerDataTable dataTable = new WSR123.VolunteerDataTable();
+            WSR123DataSet.VolunteerDataTable dataTable = new WSR123DataSet.VolunteerDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -15562,14 +15562,14 @@ SELECT VolunteerId, FirstName, LastName, CountryCode, Gender FROM Volunteer WHER
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123.VolunteerDataTable dataTable) {
+        public virtual int Update(WSR123DataSet.VolunteerDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(WSR123 dataSet) {
+        public virtual int Update(WSR123DataSet dataSet) {
             return this.Adapter.Update(dataSet, "Volunteer");
         }
         
@@ -16249,7 +16249,7 @@ SELECT VolunteerId, FirstName, LastName, CountryCode, Gender FROM Volunteer WHER
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateUpdatedRows(WSR123 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateUpdatedRows(WSR123DataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._positionTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.Position.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
@@ -16421,7 +16421,7 @@ SELECT VolunteerId, FirstName, LastName, CountryCode, Gender FROM Volunteer WHER
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateInsertedRows(WSR123 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateInsertedRows(WSR123DataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._positionTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.Position.Select(null, null, global::System.Data.DataViewRowState.Added);
@@ -16575,7 +16575,7 @@ SELECT VolunteerId, FirstName, LastName, CountryCode, Gender FROM Volunteer WHER
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateDeletedRows(WSR123 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
+        private int UpdateDeletedRows(WSR123DataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
             if ((this._volunteerTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.Volunteer.Select(null, null, global::System.Data.DataViewRowState.Deleted);
@@ -16753,7 +16753,7 @@ SELECT VolunteerId, FirstName, LastName, CountryCode, Gender FROM Volunteer WHER
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public virtual int UpdateAll(WSR123 dataSet) {
+        public virtual int UpdateAll(WSR123DataSet dataSet) {
             if ((dataSet == null)) {
                 throw new global::System.ArgumentNullException("dataSet");
             }

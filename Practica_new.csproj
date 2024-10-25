@@ -33,6 +33,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -47,62 +51,63 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admin.cs">
+    <Compile Include="Admin\Admin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin.Designer.cs">
+    <Compile Include="Admin\Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Coordinator.cs">
+    <Compile Include="ConnectionDb\ConnectionDB.cs" />
+    <Compile Include="Coordinator\Coordinator.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Coordinator.Designer.cs">
+    <Compile Include="Coordinator\Coordinator.Designer.cs">
       <DependentUpon>Coordinator.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="Login\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
+    <Compile Include="Login\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main.cs">
+    <Compile Include="MainForm\Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main.Designer.cs">
+    <Compile Include="MainForm\Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="More.cs">
+    <Compile Include="More\More.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="More.Designer.cs">
+    <Compile Include="More\More.Designer.cs">
       <DependentUpon>More.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Runner.cs">
+    <Compile Include="Runner\Runner.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Runner.Designer.cs">
+    <Compile Include="Runner\Runner.Designer.cs">
       <DependentUpon>Runner.cs</DependentUpon>
     </Compile>
-    <Compile Include="WSR123.Designer.cs">
+    <Compile Include="WSR123DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>WSR123.xsd</DependentUpon>
+      <DependentUpon>WSR123DataSet.xsd</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Admin.resx">
+    <EmbeddedResource Include="Admin\Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Coordinator.resx">
+    <EmbeddedResource Include="Coordinator\Coordinator.resx">
       <DependentUpon>Coordinator.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
+    <EmbeddedResource Include="Login\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
+    <EmbeddedResource Include="MainForm\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="More.resx">
+    <EmbeddedResource Include="More\More.resx">
       <DependentUpon>More.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -115,7 +120,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Runner.resx">
+    <EmbeddedResource Include="Runner\Runner.resx">
       <DependentUpon>Runner.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -127,16 +132,16 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="WSR123.xsc">
-      <DependentUpon>WSR123.xsd</DependentUpon>
+    <None Include="WSR123DataSet.xsc">
+      <DependentUpon>WSR123DataSet.xsd</DependentUpon>
     </None>
-    <None Include="WSR123.xsd">
+    <None Include="WSR123DataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>WSR123.Designer.cs</LastGenOutput>
+      <LastGenOutput>WSR123DataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="WSR123.xss">
-      <DependentUpon>WSR123.xsd</DependentUpon>
+    <None Include="WSR123DataSet.xss">
+      <DependentUpon>WSR123DataSet.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

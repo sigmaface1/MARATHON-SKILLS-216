@@ -33,5 +33,16 @@ namespace Practica_new.Properties {
                 return ((string)(this["WSR123ConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=205NEW-9\\SQLEXPRESS;Initial Catalog=WSR123;Integrated Security=True;E" +
+            "ncrypt=False")]
+        public string WSR123 {
+            get {
+                return ((string)(this["WSR123"]));
+            }
+        }
     }
 }
